@@ -1,18 +1,13 @@
 # Deep Learning using TensorFlow at Datagiri
 
-This repository provides instructions about how to set up a Python 3.6.x+ environment using Anaconda for Scientific Computing (particularly deep learning). It sets up the following packages:
+This repository provides instructions about setting up a number of Python environments (using Anaconda) with different configurations for Scientific Computing (particularly machine learning and deep learning). Using it, you can set up the following conda environments:
 
-* numpy
-* matplotlib
-* jupyter
-* opencv3
-* scikit-learn
-* scipy
-* h5py
-* seaborn
-* pandas
-* tensorflow
-* keras
+| file name | environment name | description |
+|-----------|------------------|-------------|
+| env27.yml
+| env36.yml
+| 
+| 
 
 # How to Set Up
 
