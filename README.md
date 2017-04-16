@@ -15,18 +15,16 @@ This repository provides instructions about setting up a number of Python enviro
 2. Install necessary packages
 
 Notes
-* In the following steps, we install the cpu-version of `tensorflow`, which is good enough for a quick session, but not for most real-world tasks.
-    - Simply substitute *environment.yml* with *environment_gpu.yml* below to install the gpu-version of tensorflow.
-    - Please note that you have to install your graphics card drivers, CUDA and cuDNN beforehand. If in doubt, just install the cpu-version.
-* The instructions have been tested only on Ubuntu and OS X (I don't have a windows system available for testing; please raise a issue if you hit any snags on your windows system).
+* In the following steps, we install the environment named `py27` using the file `env27.yml`.
+    - To install a different environment, change the filename appropriately in the set up instructions that follow (use `env36.yml` instead of `env27.yml`, for example).
+    - If you plan to use gpus for deep learning, please note that you have to install your graphics card drivers, CUDA and cuDNN beforehand. The environments using gpu versions of packages have `gpu` at the end of their names.
+* The instructions have been tested only on Ubuntu and OS X, though they should work on Windows as well (please raise a issue if you hit any snags on your Windows system).
 
 ---
 
 ## Install Anaconda
 
-(Updated from [Udacity's instructions](https://github.com/soumendra/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md))
-
-Per the Anaconda [docs](http://conda.pydata.org/docs):
+From the Anaconda [docs](http://conda.pydata.org/docs):
 
 > Conda is an open source package management system and environment management system
 for installing multiple versions of software packages and their dependencies and
@@ -68,7 +66,7 @@ Using Anaconda consists of the following:
 
 ## Install necessary packages
 
-**Setup** your the `tensorflow` environment.
+**Setup** your the `py27` environment.
 
 ```sh
 git clone https://github.com/soumendra/python-machinelearning-setup.git
@@ -79,18 +77,18 @@ If you are on Windows, **rename**
 `meta_windows_patch.yml` to   
 `meta.yml`
 
-**Create** `tensorflow`.  Running this command will create a new `conda` environment that is provisioned with all libraries listed above.
+**Create** `py27`.  Running this command will create a new `conda` environment that is provisioned with all libraries listed above.
 ```
-conda env create -f environment.yml
-```
-
-In case you want to install the gpu-version of tensorflow (provided you have installed your graphics card driver, CUDA and cuDNN), you can run,
-```
-conda env create -f environment_gpu.yml
+conda env create -f env27.yml
 ```
 
+In case you want to install another environment, use the appropriate *yml* file. For example, to install an environment including Python 3.6.x and tensorflow (cpu version), you can run,
+```
+conda env create -f env36tf.yml
+```
 
-**Verify** that the `tensorflow` environment was created in your environments:
+
+**Verify** that the `py27` environment was created in your environments:
 
 ```sh
 conda info --envs
@@ -107,7 +105,7 @@ conda clean -tp
 To uninstall the environment:
 
 ```sh
-conda env remove -n tensorflow
+conda env remove -n py27
 ```
 
 ---
@@ -117,26 +115,26 @@ conda env remove -n tensorflow
 
 Now that you have created an environment, in order to use it, you will need to activate the environment. This must be done **each** time you begin a new working session, i.e., open a new terminal window.
 
-**Activate** the `tensorflow` environment:
+**Activate** the `py27` environment:
 
 ### OS X and Linux
 ```sh
-$ source activate tensorflow
+$ source activate py27
 ```
 
 ### Windows
 Depending on shell either:
 ```sh
-$ source activate tensorflow
+$ source activate py27
 ```
 
 or
 
 ```sh
-$ activate tensorflow
+$ activate py27
 ```
 
-That's it. Now all of the `tensorflow` libraries are available to you. You can start a Jupyter Notebook with:
+That's it. Now all of the `py27` libraries are available to you. You can start a Jupyter Notebook with:
 
 ```sh
 jupyter notebook
