@@ -4,10 +4,10 @@ This repository provides instructions about setting up a number of Python enviro
 
 | file name | environment name | description |
 |-----------|------------------|-------------|
-| env27.yml
-| env36.yml
-| 
-| 
+| env27.yml |   py27           | A Python environment based on 2.7.x (for machine learning) |
+| env36.yml |   py36           | A Python environment based on 3.6.x (for machine learning) |
+| env36tf.yml | py36tf         | A Python environment based on 3.6.x (for deep learning using tensorflow, keras) |
+| env36tfgpu.yml | py36tfgpu   | A Python environment based on 3.6.x (for gpu-driven deep learning using tensorflow, keras) |
 
 # How to Set Up
 
