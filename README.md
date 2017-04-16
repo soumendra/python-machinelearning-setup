@@ -11,7 +11,29 @@ This repository provides instructions about setting up a number of Python enviro
 
 For more details on the exact packages and versions being set up, you can look at the correcponding `.yml` files.
 
-# How to Set Up
+## What is Anaconda?
+
+From the Anaconda [docs](http://conda.pydata.org/docs):
+
+> Conda is an open source package management system and environment management system
+for installing multiple versions of software packages and their dependencies and
+switching easily between them. It works on Linux, OS X and Windows, and was created
+for Python programs but can package and distribute any software.
+
+## Why Anaconda?
+
+Here are a few advantages of using Anaconda:
+
+* Set-up process is mostly uniform across platforms
+* No risk of breaking packages required by the operating system
+    - user-level installation
+    - admin privileges not required
+* We don't have to figure out package compatibility any more
+* Makes life bearable on Windows platform
+
+[Here is a discussion thread on reddit](https://www.reddit.com/r/Python/comments/3t23vv/what_advantages_are_there_of_using_anaconda/) that talks about it in more detail.
+
+# Setting Up with Anaconda
 
 1. Install Anaconda
 2. Install necessary packages
@@ -26,12 +48,6 @@ Notes
 
 ## Install Anaconda
 
-From the Anaconda [docs](http://conda.pydata.org/docs):
-
-> Conda is an open source package management system and environment management system
-for installing multiple versions of software packages and their dependencies and
-switching easily between them. It works on Linux, OS X and Windows, and was created
-for Python programs but can package and distribute any software.
 
 ### Overview
 
