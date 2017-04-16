@@ -1,4 +1,4 @@
-# Deep Learning using TensorFlow at Datagiri
+# Overview
 
 This repository provides instructions about setting up a number of Python environments (using Anaconda) with different configurations for Scientific Computing (particularly machine learning and deep learning). Using it, you can set up the following conda environments:
 
@@ -8,6 +8,8 @@ This repository provides instructions about setting up a number of Python enviro
 | env36.yml |   py36           | A Python environment based on 3.6.x (for machine learning) |
 | env36tf.yml | py36tf         | A Python environment based on 3.6.x (for deep learning using tensorflow, keras) |
 | env36tfgpu.yml | py36tfgpu   | A Python environment based on 3.6.x (for gpu-driven deep learning using tensorflow, keras) |
+
+For more details on the exact packages and versions being set up, you can look at the correcponding `.yml` files.
 
 # How to Set Up
 
