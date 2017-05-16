@@ -1,0 +1,13 @@
+name: py35
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.5
+    - numpy
+    - matplotlib
+    - jupyter
+    - scikit-learn
+    - scipy
+    - seaborn
+    - pandas
