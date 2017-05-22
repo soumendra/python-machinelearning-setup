@@ -17,3 +17,6 @@ dependencies:
     - sqlalchemy
     - boto
     - paramiko
+    - nltk
+    - wordcloud
+    - requests
