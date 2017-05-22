@@ -15,3 +15,5 @@ dependencies:
     - xgboost
     - pygithub
     - sqlalchemy
+    - boto
+    - paramiko
