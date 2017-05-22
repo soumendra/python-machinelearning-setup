@@ -13,4 +13,6 @@ dependencies:
     - pandas
     - tqdm
     - xgboost
-
+    - nltk
+    - wordcloud
+    - requests
