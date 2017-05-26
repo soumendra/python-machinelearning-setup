@@ -10,6 +10,7 @@ This repository provides instructions about setting up a number of Python enviro
 |  py36tf.yml | py36tf         | A Python environment based on 3.6.x (for deep learning using tensorflow, keras) |
 |  py36tfgpu.yml | py36tfgpu   | A Python environment based on 3.6.x (for gpu-driven deep learning using tensorflow, keras) |
 | mlredux.yml | mlredux        | A Python environment based on 3.5.2 (for machine learning) |
+| scratchpad.yml | scratchpad  | A Python 3.5.2 environment that has a lot of libraries for doing a lot of things |
 
 
 For more details on the exact packages and versions being set up, you can look at the correcponding `.yml` files.
