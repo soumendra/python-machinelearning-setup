@@ -20,6 +20,8 @@ dependencies:
     - ffmpeg
     - imageio=2.1.2
     - pyqt=4.11.4
+    - boto
+    - paramiko
     - pip:
         - moviepy
         - tensorflow==0.12.1
