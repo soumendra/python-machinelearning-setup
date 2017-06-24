@@ -16,3 +16,6 @@ dependencies:
     - nltk
     - wordcloud
     - requests
+    - imbalanced-learn
+    - pillow
+    - boto3
