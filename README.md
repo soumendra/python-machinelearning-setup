@@ -13,6 +13,7 @@ This repository contains setup instructions for various python machine learning 
 * [ToDo] Setting up an AWS cluster for deep learning with TensorFlow
 * [ToDo] Automation of AWS workflow with Boto3
 * [ToDo] A guide persisting data (secondary EBS volumes) and code (GitHub) for AWS
+* [ToDo] Create a GitBook
 
 ---
 
