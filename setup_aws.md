@@ -2,7 +2,7 @@
 
 When you are logging into a new ec2 instance for the first time:
 
-** Basic Setup**
+**Basic Setup**
 ```bash
 sudo apt-get update -y
 sudo apt-get upgrade -y
@@ -16,6 +16,8 @@ sudo apt-get install git git-core
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+
+**Setup Anaconda and an environment**
 * Set up anaconda - https://github.com/soumendra/python-machinelearning-setup
 * clone and install from your environment of choice (mlredux.yml, greyatom.yml)
 
