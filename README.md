@@ -24,6 +24,6 @@ Here is a list of environments available through the guide above:
 | scratchpad.yml | scratchpad  | A Python 3.5.2 environment that has a lot of libraries for doing a lot of things |
 | cv.yml         | cv          | A Python 3.5.2 environment for computer vision |
 | greyatom.yml   | greyatom    | A Python 2.7.x environment for the greyatom curriculum |
-| bdap.yml       | bdap        | A Python 3.5.2 environment for bdap curriculum (except for deep learning and computer vision (Spark, Machine Learning (sklearn) etc) |
+| bdap.yml       | bdap        | A Python 3.5.2 environment for bdap curriculum (except for deep learning and computer vision, for Spark, Machine Learning (sklearn) etc) |
 
 For more details on the exact packages and versions being set up, you can look at the correcponding `.yml` files.
