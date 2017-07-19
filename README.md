@@ -8,7 +8,7 @@ This repository contains setup instructions for various python machine learning 
     - Most often, even when I'm using an AMI with preloaded software, I still have to configure a few things (and I like setting up my own conda enviroment - see the guide above)
     - You can also follow this to set up your brand new Ubuntu installation
 * [How to setup your Ubuntu/MacOS system for Computer Vision (mainly OpenCV3](https://github.com/soumendra/python-machinelearning-setup/blob/master/setup_computer_vision.md)
-* [How to set up Spark in Ubuntu and MacOS]()
+* [How to set up Spark in Ubuntu and MacOS](https://github.com/soumendra/python-machinelearning-setup/blob/master/setup_spark.md)
 
 # Available Python environments (Anaconda)
 
