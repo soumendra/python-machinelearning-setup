@@ -9,6 +9,12 @@ This repository contains setup instructions for various python machine learning 
     - You can also follow this to set up your brand new Ubuntu installation
 * [How to setup your Ubuntu/MacOS system for Computer Vision (mainly OpenCV3](https://github.com/soumendra/python-machinelearning-setup/blob/master/setup_computer_vision.md)
 * [How to set up Spark in Ubuntu and MacOS](https://github.com/soumendra/python-machinelearning-setup/blob/master/setup_spark.md)
+* [ToDo] Setting up an AWS instance for deep learning using an AMI
+* [ToDo] Setting up an AWS cluster for deep learning with TensorFlow
+* [ToDo] Automation of AWS workflow with Boto3
+* [ToDo] A guide persisting data (secondary EBS volumes) and code (GitHub) for AWS
+
+---
 
 # Available Python environments (Anaconda)
 
