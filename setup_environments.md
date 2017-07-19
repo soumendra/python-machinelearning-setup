@@ -12,6 +12,7 @@ This repository provides instructions about setting up a number of Python enviro
 | mlredux.yml | mlredux        | A Python environment based on 3.5.2 (for machine learning) |
 | scratchpad.yml | scratchpad  | A Python 3.5.2 environment that has a lot of libraries for doing a lot of things |
 | cv.yml         | cv          | A Python 3.5.2 environment for computer vision |
+| greyatom.yml   | greyatom    | A Python 2.7.x environment for the greyatom curriculum |
 
 For more details on the exact packages and versions being set up, you can look at the correcponding `.yml` files.
 
