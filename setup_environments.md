@@ -4,16 +4,17 @@ This repository provides instructions about setting up a number of Python enviro
 
 | file name | environment name | description |
 |-----------|------------------|-------------|
-|  py27.yml |   py27           | A Python environment based on 2.7.x (for machine learning) |
-|  py35.yml |   py35           | A Python environment based on 3.5.2 (for machine learning) |
-|  py36.yml |   py36           | A Python environment based on 3.6.x (for machine learning) |
-|  py36tf.yml | py36tf         | A Python environment based on 3.6.x (for deep learning using tensorflow, keras) |
-|  py36tfgpu.yml | py36tfgpu   | A Python environment based on 3.6.x (for gpu-driven deep learning using tensorflow, keras) |
 | mlredux.yml | mlredux        | A Python environment based on 3.5.2 (for machine learning) |
 | scratchpad.yml | scratchpad  | A Python 3.5.2 environment that has a lot of libraries for doing a lot of things |
 | cv.yml         | cv          | A Python 3.5.2 environment for computer vision |
 | greyatom.yml   | greyatom    | A Python 2.7.x environment for the greyatom curriculum |
 | bdap.yml       | bdap        | A Python 3.5.2 environment for bdap curriculum (except for deep learning and computer vision, for Spark, Machine Learning (sklearn) etc) |
+|  py27.yml |   py27           | A Python environment based on 2.7.x (for machine learning) |
+|  py35.yml |   py35           | A Python environment based on 3.5.2 (for machine learning) |
+|  py36.yml |   py36           | A Python environment based on 3.6.x (for machine learning) |
+|  py36tf.yml | py36tf         | A Python environment based on 3.6.x (for deep learning using tensorflow, keras) |
+|  py36tfgpu.yml | py36tfgpu   | A Python environment based on 3.6.x (for gpu-driven deep learning using tensorflow, keras) |
+
 
 For more details on the exact packages and versions being set up, you can look at the correcponding `.yml` files.
 
