@@ -12,7 +12,6 @@ sudo apt-get install python-dev
 sudo apt-get install ubuntu-restricted-extras
 sudo apt-get install ubuntu-restricted-addons
 sudo apt-get install vlc
-sudo apt-get install mencoder mplayer
 ```
 
 # macos
