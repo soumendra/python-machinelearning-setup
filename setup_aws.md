@@ -59,3 +59,5 @@ vim jupyter_notebook_config.py
 > c.NotebookApp.open_browser = False 
 
 > c.NotebookApp.port = 8888
+
+Note: Open the notebook with `https` and not `http`
