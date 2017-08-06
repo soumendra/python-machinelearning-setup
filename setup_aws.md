@@ -42,6 +42,8 @@ git config --global user.name "Your Name"
 jupyter notebook --generate-config
 mkdir certs
 cd certs
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem
+
 cd ~/.jupyter
 vim jupyter_notebook_config.py
 ```
