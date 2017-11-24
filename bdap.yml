@@ -12,3 +12,4 @@ dependencies:
     - seaborn
     - pandas
     - tqdm
+    - findspark

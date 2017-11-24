@@ -1,4 +1,4 @@
-name: py35
+name: py36tf
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
@@ -7,7 +7,14 @@ dependencies:
     - numpy
     - matplotlib
     - jupyter
+    - opencv3
     - scikit-learn
     - scipy
+    - h5py
     - seaborn
     - pandas
+    - tensorflow
+    - boto3
+    - pip:
+        - git+https://github.com/fchollet/keras.git
+

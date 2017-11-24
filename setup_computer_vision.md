@@ -23,13 +23,13 @@ Install the following:
 * homebrew
 
 ```bash
-brew install boost --with-python
+brew install boost
 brew install boost-python
 brew list | grep 'boost'
     > boost
     > boost-python
 brew tap homebrew/science
-brew install opencv
+brew install opencv3
 ```
 
 # Installing the conda environment
